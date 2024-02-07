@@ -1,11 +1,9 @@
-<<<<<<< HEAD
 body{
     background-color: #e5e5f7;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     background-image:  linear-gradient(#444cf7 2px, transparent 2px), linear-gradient(90deg, #444cf7 2px, transparent 2px), linear-gradient(#444cf7 1px, transparent 1px), linear-gradient(90deg, #444cf7 1px, #e5e5f7 1px);
     background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
     background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
-
 }
 
 .org-chart {
@@ -55,7 +53,7 @@ body{
 }
 
 .ceo {
-    display: inline;
+    display: inline-flexbox;
     justify-content: center;
     justify-items: center;
 }
@@ -66,72 +64,3 @@ body{
     align-items: center;
     width: 100%;
 }
-=======
-body{
-    background-color: #e5e5f7;
-    opacity: 0.8;
-    background-image:  linear-gradient(#444cf7 2px, transparent 2px), linear-gradient(90deg, #444cf7 2px, transparent 2px), linear-gradient(#444cf7 1px, transparent 1px), linear-gradient(90deg, #444cf7 1px, #e5e5f7 1px);
-    background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
-    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
-
-}
-
-.org-chart {
-    margin: 0 auto;
-    width: 80%;
-    font-family: Arial, sans-serif;
-}
-
-.operators {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.ceo, .executive, .operator {
-    text-align: center;
-    margin: 12px;
-    background-color: white;
-    opacity: 100%;
-    /* border: 1px solid red; */
-}
-
-.exe-branch{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.ceo .name {
-    margin-top: 5px;
-}
-
-.avatar img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-}
-
-.details {
-    margin-top: 10px;
-    width: auto;
-    height: 50px;
-}
-
-.name{
-    margin-top: 5px;
-}
-
-.ceo {
-    display: inline;
-    justify-content: center;
-    justify-items: center;
-}
-
-.executive {
-    display: flexbox;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
->>>>>>> ab41f9c0804cd6076ea049fedc5b9e9c25446618
